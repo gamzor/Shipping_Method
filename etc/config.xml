@@ -1,0 +1,14 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <express>
+                <active>0</active>
+                <model>Kirill\ShippingMethod\Model\Carrier\Express</model>
+                <name>Express</name>
+                <range>10.00</range>
+                <title>Shipping Express</title>
+                <type>I</type>
+            </express>
+        </carriers>
+    </default>
+</config>
